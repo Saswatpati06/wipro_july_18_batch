@@ -1,4 +1,4 @@
-package Day04;
+package Day2407;
 
 abstract class Abstract {
 	

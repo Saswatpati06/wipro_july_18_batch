@@ -1,7 +1,7 @@
-package Day04;
+package Day2407;
 
 // Accessing default specifier class with subclass
-class access extends defaultaccess{
+class access extends defaultaccess {
 	public void syso() {
 		// TODO Auto-generated method stub
 		System.out.println("Accessing default in subclass");

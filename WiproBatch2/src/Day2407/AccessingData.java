@@ -1,7 +1,7 @@
-package Day04;
-import labsessions.Day04.*;
+package Day2407;
+import labsessions.Day2407.*;
 
-class xyz extends Customers{
+class xyz extends Customers {
 	public static void AccessingPublicData(){
 //		Company.displayCompanyData();
 	}

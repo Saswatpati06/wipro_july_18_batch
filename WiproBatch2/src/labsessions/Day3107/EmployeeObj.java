@@ -1,4 +1,4 @@
-package labsessions.Day10;
+package labsessions.Day3107;
 
 public class EmployeeObj implements Comparable<EmployeeObj>{
 	String name; 

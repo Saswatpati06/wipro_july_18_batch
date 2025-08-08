@@ -1,4 +1,4 @@
-package Day05;
+package Day2507;
 
 public interface Interface1 extends Interface2{
 	//not override in subclasses

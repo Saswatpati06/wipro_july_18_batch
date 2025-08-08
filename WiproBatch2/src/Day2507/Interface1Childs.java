@@ -1,4 +1,4 @@
-package Day05;
+package Day2507;
 
 public class Interface1Childs implements Interface1{
 	//interface1 and 2 have same method

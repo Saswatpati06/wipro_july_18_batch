@@ -1,4 +1,4 @@
-package labsessions.Day12;
+package labsessions.Day0208;
 
 class evenOdd extends Thread{
 	int i;

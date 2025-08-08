@@ -1,4 +1,4 @@
-package Day02;
+package Day2207;
 
 public class Loops {
 

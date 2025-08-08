@@ -1,4 +1,4 @@
-package Day05;
+package Day2507;
 
 public interface Interface2 {
 	void display();

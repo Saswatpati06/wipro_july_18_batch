@@ -1,5 +1,5 @@
-package Day04;
-import Day02.prime;
+package Day2407;
+import Day2207.prime;
 
 public class Packages {
 	

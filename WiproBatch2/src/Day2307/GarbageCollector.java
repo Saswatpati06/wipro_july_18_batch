@@ -1,4 +1,4 @@
-package Day03;
+package Day2307;
 
 public class GarbageCollector {
 	//null gc
