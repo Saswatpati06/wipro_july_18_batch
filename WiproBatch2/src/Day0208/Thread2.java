@@ -1,4 +1,4 @@
-package Day02081;
+package Day0208;
 
 class Cooking extends Thread{
 	private String string;

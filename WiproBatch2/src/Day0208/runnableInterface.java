@@ -1,4 +1,4 @@
-package Day02081;
+package Day0208;
 
 class runInter implements Runnable{
 	int id;

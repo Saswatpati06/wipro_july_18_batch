@@ -1,4 +1,4 @@
-package Day02081;
+package Day0208;
 
 class count extends Thread{
 	static int c = 0;

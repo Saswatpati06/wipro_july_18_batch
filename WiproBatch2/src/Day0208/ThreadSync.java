@@ -1,4 +1,4 @@
-package Day02081;
+package Day0208;
 
 class syncthread {
 	private int c = 0;
