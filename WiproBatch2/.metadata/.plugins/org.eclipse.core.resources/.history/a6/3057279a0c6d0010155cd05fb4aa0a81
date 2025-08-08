@@ -1,0 +1,23 @@
+package Day09;
+
+import java.util.ArrayList;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> list = new ArrayList<>();
+		list.add("Mayank");
+		list.add("Dhruv");
+		list.add("Chetan");
+		list.add("Nikhil");
+		System.out.println(list);
+		System.out.println(list.get(2));
+		System.out.println(list.isEmpty());
+		System.out.println(list.size());
+		System.out.println(list.remove(2));
+		System.out.println(list.set(1, "Dhruv M"));
+		System.out.println(list);
+	}
+
+}

@@ -1,0 +1,16 @@
+package labsessions.Day10;
+
+public class Employee implements Comparable<EmployeeObj>{
+	String name; 
+	int salary, productPrice;
+	@Override
+	public int compareTo(EmployeeObj o) {
+//		return o.salary - this.salary; // salary descending order
+		if(this.productPrice == o.productPrice) return this.name.compareTo(o.name);
+		else return this.productPrice - o.productPrice;
+	}
+	
+	public String toString() {
+		return this.name+" , "+salary+" , "+this.productPrice;
+	}
+}

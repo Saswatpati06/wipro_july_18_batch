@@ -1,0 +1,42 @@
+package labsessions.Day09;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+public class questions {
+
+	public static void find2ndLargest(ArrayList<Integer> list) {
+		int first = -1, second = -1;
+		for(int el:list) {
+			if(el>=first) {
+				second = first;
+				first = el;
+			}
+		}
+		System.out.println("Second largest element is :"+second);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> set = new HashSet<>();
+		set.add("Mayank");
+		set.add("Rahul");
+		set.add("Amit");
+		set.add("Chetan");
+		set.add("Mayank");
+		System.out.println(set);
+		ArrayList<Integer> list = new ArrayList<>();
+		list.add(10);
+		list.add(30);
+		list.add(10);
+		list.add(20);
+		list.add(40);
+		System.out.println("Before sort : "+list);
+		Collections.sort(list);
+		System.out.println("After sort : "+list);
+		find2ndLargest(list);
+		
+	}
+
+}
