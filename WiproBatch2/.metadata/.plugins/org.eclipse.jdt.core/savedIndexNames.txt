@@ -1,6 +1,0 @@
-INDEX VERSION 1.134+E:\Study\Wipro\Java\WiproBatch2\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3011242739.index
-2506192191.index
-1067094681.index
-4079813924.index
