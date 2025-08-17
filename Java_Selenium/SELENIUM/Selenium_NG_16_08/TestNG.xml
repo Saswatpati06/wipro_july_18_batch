@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test_PR" verbose="1">
+  <test name="Testing_Module">
+    <classes>
+       <class name="TestNG.ParametrizationTestNg"/>
+    </classes>
+  </test>
+</suite>
