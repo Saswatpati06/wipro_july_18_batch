@@ -1,0 +1,52 @@
+2025-08-20 10:43:23 [main] INFO  LogTestNG - ===== Test Started: launchBrowser =====
+2025-08-20 10:43:27 [main] INFO  LogTestNG - Chrome browser launched successfully.
+2025-08-20 10:43:27 [main] INFO  LogTestNG - Browser window maximized.
+2025-08-20 10:43:30 [main] INFO  LogTestNG - Navigated to: https://the-internet.herokuapp.com/windows
+2025-08-20 10:43:30 [main] INFO  LogTestNG - Browser closed successfully.
+2025-08-20 10:43:30 [main] INFO  LogTestNG - ===== Test Finished: launchBrowser =====
+2025-08-20 11:29:10 [main] INFO  LogTestNG - ===== Test Started: launchbrowser =====
+2025-08-20 11:29:16 [main] INFO  LogTestNG - Invoking the browser and navigating to The Internet website
+2025-08-20 11:29:16 [main] INFO  LogTestNG - Browser window maximized
+2025-08-20 11:29:16 [main] INFO  LogTestNG - Browser closed
+2025-08-20 11:29:16 [main] INFO  LogTestNG - ===== Test Finished: launchbrowser =====
+2025-08-20 11:29:16 [main] INFO  LogTestNG - ===== Test Started: login =====
+2025-08-20 11:29:20 [main] INFO  LogTestNG - Navigated to OrangeHRM login page
+2025-08-20 11:29:23 [main] INFO  LogTestNG - Entering the username
+2025-08-20 11:29:25 [main] INFO  LogTestNG - Entering the password
+2025-08-20 11:29:27 [main] INFO  LogTestNG - Clicking on the login button
+2025-08-20 11:29:29 [main] INFO  LogTestNG - Browser closed
+2025-08-20 11:29:29 [main] INFO  LogTestNG - ===== Test Finished: login =====
+2025-08-20 11:46:28 [main] INFO  TestDatabase - MySQL Driver Loaded
+2025-08-20 11:46:28 [main] INFO  TestDatabase - Database connection established
+2025-08-20 11:46:28 [main] INFO  TestDatabase - Query executed: select * from Persons
+2025-08-20 11:46:28 [main] INFO  TestDatabase - Fetched from DB -> Username: Amit, Password: Kumar
+2025-08-20 11:46:35 [main] INFO  TestDatabase - Navigated to OrangeHRM
+2025-08-20 11:49:00 [main] INFO  TestDatabase - MySQL Driver Loaded
+2025-08-20 11:49:01 [main] INFO  TestDatabase - Database connection established
+2025-08-20 11:49:01 [main] INFO  TestDatabase - Query executed: select * from Persons
+2025-08-20 11:49:01 [main] INFO  TestDatabase - Fetched from DB -> Username: Amit, Password: Kumar
+2025-08-20 11:49:07 [main] INFO  TestDatabase - Navigated to OrangeHRM
+2025-08-20 11:49:07 [main] INFO  TestDatabase - Database connection closed
+2025-08-20 11:51:15 [main] INFO  TestDatabase - MySQL Driver Loaded
+2025-08-20 11:51:15 [main] INFO  TestDatabase - Database connection established
+2025-08-20 11:51:15 [main] INFO  TestDatabase - Query executed: select * from persons
+2025-08-20 11:51:15 [main] INFO  TestDatabase - Fetched from DB -> Username: Amit, Password: Kumar
+2025-08-20 11:51:20 [main] INFO  TestDatabase - Navigated to OrangeHRM
+2025-08-20 11:51:20 [main] INFO  TestDatabase - Database connection closed
+2025-08-20 12:00:05 [main] INFO  TestDatabase - Connected to Database Successfully!
+2025-08-20 12:00:05 [main] INFO  TestDatabase - Fetched from DB → Username: Amit, Password: Kumar
+2025-08-20 12:00:14 [main] INFO  TestDatabase - Browser Launched Successfully!
+2025-08-20 12:00:14 [main] INFO  TestDatabase - Username Entered
+2025-08-20 12:00:17 [main] INFO  TestDatabase - Password Entered
+2025-08-20 12:00:19 [main] INFO  TestDatabase - Clicked on Login Button
+2025-08-20 12:00:22 [main] INFO  TestDatabase - Browser Closed Successfully!
+2025-08-20 12:00:22 [main] INFO  TestDatabase - Fetched from DB → Username: Sneha, Password: Reddy
+2025-08-20 12:00:30 [main] INFO  TestDatabase - Browser Launched Successfully!
+2025-08-20 12:00:31 [main] INFO  TestDatabase - Username Entered
+2025-08-20 12:00:33 [main] INFO  TestDatabase - Password Entered
+2025-08-20 12:00:35 [main] INFO  TestDatabase - Clicked on Login Button
+2025-08-20 12:00:38 [main] INFO  TestDatabase - Browser Closed Successfully!
+2025-08-20 12:00:38 [main] INFO  TestDatabase - Fetched from DB → Username: Ravi, Password: Singh
+2025-08-20 12:00:46 [main] INFO  TestDatabase - Browser Launched Successfully!
+2025-08-20 12:00:46 [main] INFO  TestDatabase - Username Entered
+2025-08-20 12:00:49 [main] INFO  TestDatabase - Password Entered
