@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Form Suite">
+
+    <!-- Run All Tests -->
+    <test name="Form Automation Test">
+        <parameter name="firstName" value="Saswat"/>
+        <parameter name="lastName" value="Pati"/>
+        <parameter name="gender" value="Male"/>
+        <parameter name="experience" value="4"/>
+        <parameter name="date" value="02-06-2002"/>
+
+        <classes>
+            <class name="Labs_NG_18_08.FormFillingTest"/>
+        </classes>
+    </test>
+
+    <!-- Example of running only Sanity group -->
+    <test name="Sanity Only">
+        <groups>
+            <run>
+                <include name="Sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Labs_NG_18_08.FormFillingTest"/>
+        </classes>
+    </test>
+
+    <!-- Example of running only Regression group -->
+    <test name="Regression Only">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Labs_NG_18_08.FormFillingTest"/>
+        </classes>
+    </test>
+</suite>
+
